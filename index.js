@@ -80,7 +80,7 @@ async function run() {
       })
 
       //get my order by gmail
-      app.post('/services/xyz', async (req, res) => {
+      app.post('/services/myOrder', async (req, res) => {
           const email = req.body.email;
 
           const query = {"email": email};
